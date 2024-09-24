@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de unidade de comprimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <header>
+        <div id="painel_header" >Conversor de metros
+
+        </div>
+    </header>
+
+    <main>
+        <div id="window_conversor_btn" class="container mt-5"  >
+           
+            <div id="input_valor" inputmode="numeric">
+                <input type="number" id="valor" class="form-control" placeholder="Digite valor em metros. Ex. 1.5 ">
+            </div>
+
+            
+            <select id="menu_suspenso" class="menu mt-3">
+                <option value="jarda">Jarda(s)</option>
+                <option value="pe">Pé(s)</option>
+                <option value="polegada">Polegada(s)</option>
+                <option value="milha">Milha(s)</option>
+            </select>
+            
+
+            <div>
+                <button id="btn_converter" class="btn btn-primary mt-3">Converter</button>
+            </div>
+
+            <div id="resultado" class="mt-3"></div>
+        </div>
+            
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p id="txt_rodape" class="mb-5">
+        Direitos reservados. Ítalo Decanio, 23/09/24. Apoio gêptin.
+    </p>
+</footer>
+</html>

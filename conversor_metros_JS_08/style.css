@@ -1,0 +1,51 @@
+
+body{
+    background-image: url('assets/img_distancia.png');/* Caminho da imagem */
+    background-position: center; /* Centraliza a imagem */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#painel_header, #window_conversor_btn{
+    
+    border: 5px solid;
+    background-color: brown;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#input_valor input {
+    width: 300px;
+}
+
+#btn_converter{
+    width: 100%;
+    background-color: #8a8678;
+    color: #000;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#txt_rodape {
+    margin: 0;
+    color: pink;
+    font-size: 14px;
+}
